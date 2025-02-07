@@ -21,7 +21,7 @@ $organizationId = $_GET['organizationId'];
 $cityId = $_GET['cityId'];
 
 // Установите ваш API логин
-$apiLogin = '4b86f201-c265-40e6-98ce-bc7b2f6be667'; // Замените на ваш API логин
+$apiLogin = ''; // Замените на ваш API логин
 
 // Получение токена
 if (!getAccessToken($apiLogin)) {
