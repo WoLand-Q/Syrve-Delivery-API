@@ -23,7 +23,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 }
 
 // Установите ваш API логин
-$apiLogin = '4b86f201-c265-40e6-98ce-bc7b2f6be667'; // Замените на ваш API логин
+$apiLogin = ''; // Замените на ваш API логин
 
 // Получение токена
 if (!getAccessToken($apiLogin)) {
